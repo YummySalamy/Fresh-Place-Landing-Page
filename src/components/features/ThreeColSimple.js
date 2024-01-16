@@ -6,9 +6,9 @@ import { SectionHeading, Subheading as SubheadingBase } from "components/misc/He
 import { SectionDescription } from "components/misc/Typography.js";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
-import SupportIconImage from "images/support-icon.svg";
-import ShieldIconImage from "images/shield-icon.svg";
-import CustomizeIconImage from "images/customize-icon.svg";
+import ShoppingCartImage from "images/shopping-cart.png";
+import SupportImage from "images/support-icon.png";
+import FastDeliveryImage from "images/fast-shipping-icon.png";
 import { ReactComponent as SvgDecoratorBlob3 } from "images/svg-decorator-blob-3.svg";
 
 const Heading = tw(SectionHeading)``;
@@ -51,24 +51,25 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
 `;
 
 export default ({
+  //the cards description must have a reference to Fresh Place (the limes and lemons store)and its features
   cards = [
     {
-      imageSrc: ShieldIconImage,
+      imageSrc: ShoppingCartImage,
       title: "Buy From Us",
-      description: "We strictly only deal with vendors that provide top notch security.",
-      url: "https://timerse.com"
+      description: "Fresh Place is the best place to buy your limes and lemons",
+      url: "fresh-place.com"
     },
     {
-      imageSrc: SupportIconImage,
+      imageSrc: SupportImage,
       title: "24/7 Support",
-      description: "Lorem ipsum donor amet siti ceali placeholder text",
-      url: "https://google.com"
+      description: "We are here to help you with any questions you may have",
+      url: "fresh-place.com"
     },
     {
-      imageSrc: CustomizeIconImage,
-      title: "Customizable",
-      description: "Lorem ipsum donor amet siti ceali placeholder text",
-      url: "https://reddit.com"
+      imageSrc: FastDeliveryImage,
+      title: "Fast Delivery",
+      description: "We will deliver your limes and lemons as fast as possible",
+      url: "fresh-place.com"
     }
   ],
   linkText = "Learn More",

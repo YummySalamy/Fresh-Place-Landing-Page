@@ -55,7 +55,7 @@ export default ({textOnLeft = false}) => {
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
             <Heading>We have the best service.</Heading>
-            <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Description>
+            <Description>Your premier destination for top-tier export and distribution of select fruits and vegetables, with a special emphasis on lemons. Experience unparalleled quality and freshness with every purchase. At Fresh Place, we pride ourselves on delivering excellence in every aspect, from carefully cultivated produce to seamless, reliable service. Elevate your culinary journey with our premium offerings and join us in promoting a sustainable and flavorful lifestyle. Choose Fresh Place for a vibrant, fresh, and delightful experience.</Description>
             <Statistics>
               {statistics.map((statistic, index) => (
               <Statistic key={index}>

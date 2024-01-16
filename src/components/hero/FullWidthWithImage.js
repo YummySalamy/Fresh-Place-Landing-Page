@@ -52,7 +52,7 @@ export default ({
     </>
   ),
   description = "We are a lime exhibition company that is dedicated to providing the best lime exhibition experience for our customers.",
-  primaryActionUrl = "#",
+  primaryActionUrl = "#contact-us-form",
   primaryActionText = "Get in Touch",
   secondaryActionUrl = "#",
   secondaryActionText = "Learn More"

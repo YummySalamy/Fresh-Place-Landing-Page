@@ -97,30 +97,30 @@ export default () => {
     {
       imageSrc: LimeImage,
       title: "Tahiti Lemons / Lime",
-      description: "Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.",
+      description: "Experience the zesty burst of flavor with our Tahiti Lemons. Perfect for adding a refreshing twist to your dishes or crafting the perfect citrus-infused beverages.",
       locationText: "Rome, Italy",
-      pricingText: "USD 6",
+      pricingText: "USD 1/pound",
     },
     {
       imageSrc: LemonsImage,
       title: "Verna Lemons",
-      description: "Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.",
+      description: "Indulge in the exquisite taste of Verna Lemons - a premium choice known for its vibrant aroma and juicy sweetness. Elevate your culinary creations with these exceptional lemons.",
       locationText: "Ibiza, Spain",
-      pricingText: "USD 5",
+      pricingText: "USD 3/pound",
     },
     {
       imageSrc: TableGrapes,
       title: "Table Grapes",
-      description: "Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.",
+      description: "Savor the sweetness with our Table Grapes, meticulously selected for their plumpness and succulence. These grapes are a delightful addition to any snack or meal, offering a burst of natural sweetness.",
       locationText: "Palo Alto, CA",
-      pricingText: "USD 11",
+      pricingText: "USD 2.99/pound",
     },
     {
       imageSrc: GarlicImage,
       title: "Garlic",
-      description: "Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.",
+      description: "Enhance your culinary endeavors with our premium Garlic. Known for its robust flavor, our garlic adds depth and richness to a variety of dishes. Elevate your recipes with the finest quality garlic from Fresh Place.",
       locationText: "Arizona, RAK",
-      pricingText: "USD 3",
+      pricingText: "USD 1.99/pound",
     },
   ]
 
