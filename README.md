@@ -2,6 +2,11 @@
 
 This repository showcases a React-based web development project created to enhance a company's online presence. It serves as a validation of my skills and experience in building modern, responsive websites.
 
+To access the latest production version of the React Landing Page Project, simply type 'fresh-place.com' in your browser.
+
+
+
+
 ## Key Features
 
 - React Framework: Developed using React for a dynamic and interactive user interface.
