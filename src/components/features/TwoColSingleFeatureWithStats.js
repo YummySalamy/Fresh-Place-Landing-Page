@@ -34,15 +34,15 @@ export default ({textOnLeft = false}) => {
   const statistics = [
     {
       key: "Countries",
-      value: "6",
+      value: "2",
     },
     {
       key: "Stores",
-      value: "479",
+      value: "10",
     },
     {
       key: "Workers",
-      value: "10347",
+      value: "---",
     }
   ]
 

@@ -82,13 +82,13 @@ export default ({
       imageSrc:
         LemonImage,
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
+        "We are a lime exhibition company that is dedicated to providing the best lime exhibition experience for our customers."
     },
     {
       imageSrc:
         "https://images.unsplash.com/photo-1523952578875-e6bb18b26645?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
       quote:
-        "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
+        "We are a lime exhibition company that is dedicated to providing the best lime exhibition experience for our customers."
     }
   ];
 

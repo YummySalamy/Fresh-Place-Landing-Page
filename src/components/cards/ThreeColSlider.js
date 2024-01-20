@@ -99,28 +99,28 @@ export default () => {
       title: "Tahiti Lemons / Lime",
       description: "Experience the zesty burst of flavor with our Tahiti Lemons. Perfect for adding a refreshing twist to your dishes or crafting the perfect citrus-infused beverages.",
       locationText: "Rome, Italy",
-      pricingText: "USD 1/pound",
+      pricingText: "---",
     },
     {
       imageSrc: LemonsImage,
       title: "Verna Lemons",
       description: "Indulge in the exquisite taste of Verna Lemons - a premium choice known for its vibrant aroma and juicy sweetness. Elevate your culinary creations with these exceptional lemons.",
       locationText: "Ibiza, Spain",
-      pricingText: "USD 3/pound",
+      pricingText: "---",
     },
     {
       imageSrc: TableGrapes,
       title: "Table Grapes",
       description: "Savor the sweetness with our Table Grapes, meticulously selected for their plumpness and succulence. These grapes are a delightful addition to any snack or meal, offering a burst of natural sweetness.",
       locationText: "Palo Alto, CA",
-      pricingText: "USD 2.99/pound",
+      pricingText: "---",
     },
     {
       imageSrc: GarlicImage,
       title: "Garlic",
       description: "Enhance your culinary endeavors with our premium Garlic. Known for its robust flavor, our garlic adds depth and richness to a variety of dishes. Elevate your recipes with the finest quality garlic from Fresh Place.",
       locationText: "Arizona, RAK",
-      pricingText: "USD 1.99/pound",
+      pricingText: "---",
     },
   ]
 
