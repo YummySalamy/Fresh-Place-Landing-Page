@@ -53,11 +53,6 @@ export default ({
    */
   const defaultFaqs = [
     {
-      question: "What is the most popular lemon ?",
-      answer:
-        "The most popular lemon is the Eureka lemon. It is the most common lemon found in grocery stores. It is a true lemon with a bright yellow color and acid pulp. It has a medium-thick skin with a high lemon oil content. It is valued for its high juice content and tart flavor."
-    },
-    {
       question: "What is the most popular lime ?",
       answer:
         "The most popular lime is the Persian lime. It is the most common lime found in grocery stores. It is a true lime with a bright green color and acid pulp. It has a thin skin with a high lime oil content. It is valued for its high juice content and tart flavor."

@@ -36,12 +36,12 @@ const SvgDotPattern1 = tw(SvgDotPatternIcon)`absolute bottom-0 right-0 transform
 
 export default () => {
   return (
-    <Container>
+    <Container id="contact-us-form">
       <Content>
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
             <h2>Contact Us</h2>
-            <form action="#contact-us-form">
+            <form action="mailto:sales@fresh-place.com">
               <TwoColumn>
                 <Column>
                   <InputContainer>

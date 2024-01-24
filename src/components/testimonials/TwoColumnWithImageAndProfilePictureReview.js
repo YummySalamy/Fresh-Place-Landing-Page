@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import styled from "styled-components";
 import tw from "twin.macro";
 import LemonImage from "images/lime-exhibition-3.jpeg";
+import LemonImage2 from "images/limes-exhibition.jpeg";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "../misc/Headings.js";
 import { PrimaryButton } from "../misc/Buttons.js";
@@ -86,7 +87,7 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1523952578875-e6bb18b26645?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+        LemonImage2,
       quote:
         "We are a lime exhibition company that is dedicated to providing the best lime exhibition experience for our customers."
     }

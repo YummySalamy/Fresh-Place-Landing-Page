@@ -4,9 +4,8 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import { SectionHeading } from "components/misc/Headings";
 import LimeImage  from "images/lime.jpeg";
-import LemonsImage from "images/LemonsImage.png";
-import TableGrapes from "images/Table-Grapes.jpeg";
 import GarlicImage from "images/Garlic.jpeg";
+import AvocadoImage from "images/Avocado-Hass-Each-Panetta-Mercato.jpeg";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons";
 import { ReactComponent as PriceIcon } from "feather-icons/dist/icons/dollar-sign.svg";
 import { ReactComponent as LocationIcon } from "feather-icons/dist/icons/map-pin.svg";
@@ -92,35 +91,24 @@ export default () => {
     ]
   };
 
-  /* Change this according to your needs */
   const cards = [
     {
       imageSrc: LimeImage,
       title: "Tahiti Lemons / Lime",
       description: "Experience the zesty burst of flavor with our Tahiti Lemons. Perfect for adding a refreshing twist to your dishes or crafting the perfect citrus-infused beverages.",
-      locationText: "Rome, Italy",
-      pricingText: "---",
+      pricingText: "Custom Pricing",
     },
     {
-      imageSrc: LemonsImage,
-      title: "Verna Lemons",
-      description: "Indulge in the exquisite taste of Verna Lemons - a premium choice known for its vibrant aroma and juicy sweetness. Elevate your culinary creations with these exceptional lemons.",
-      locationText: "Ibiza, Spain",
-      pricingText: "---",
-    },
-    {
-      imageSrc: TableGrapes,
-      title: "Table Grapes",
-      description: "Savor the sweetness with our Table Grapes, meticulously selected for their plumpness and succulence. These grapes are a delightful addition to any snack or meal, offering a burst of natural sweetness.",
-      locationText: "Palo Alto, CA",
-      pricingText: "---",
+      imageSrc: AvocadoImage,
+      title: "Hass Avocado",
+      description: "Our Hass Avocados are the perfect addition to your favorite recipes. With a creamy texture and rich flavor, these avocados are sure to satisfy.",
+      pricingText: "Custom Pricing"
     },
     {
       imageSrc: GarlicImage,
       title: "Garlic",
       description: "Enhance your culinary endeavors with our premium Garlic. Known for its robust flavor, our garlic adds depth and richness to a variety of dishes. Elevate your recipes with the finest quality garlic from Fresh Place.",
-      locationText: "Arizona, RAK",
-      pricingText: "---",
+      pricingText: "Custom Pricing"
     },
   ]
 
