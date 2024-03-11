@@ -42,7 +42,7 @@ export default () => {
             <Link href="#">Home</Link>
             <Link href="#">About</Link>
             <Link href="#contact-us-form">Contact Us</Link>
-            <Link href="#">Blog</Link>
+            <Link href="blog">Blog</Link>
             <Link href="#">Reviews</Link>
           </LinksContainer>
           <SocialLinksContainer>
