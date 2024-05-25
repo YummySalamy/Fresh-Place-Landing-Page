@@ -9,9 +9,11 @@ import FAQ from "components/faqs/SimpleWithSideImage.js";
 import SubscribeNewsLetterForm from "components/forms/SimpleSubscribeNewsletter.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 import SimpleContactUs from "components/forms/SimpleContactUs";
+import WhatsappContact from "components/floating-buttons/WhatsappContact";
 
 export default () => (
   <AnimationRevealPage>
+    <WhatsappContact />
     <Hero />
     <Features />
     <SliderCard />

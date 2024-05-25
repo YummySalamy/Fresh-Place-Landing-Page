@@ -1,0 +1,29 @@
+.whatsapp-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    cursor: pointer;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    background-color: #25d366;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+    transition: all ease-in-out 0.3s;
+}
+
+.whatsapp-contact:hover {
+    background-color: #128c7e;
+    transform: scale(1.1);
+}
+
+@keyframes auraGreen {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 255, 0, 0.7);
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 255, 0, 0);
+    }
+}
