@@ -8,6 +8,8 @@ const WhatsappContact = () => {
         window.open("https://wa.me/12016678140", "_blank");
     }
 
+    // Render the WhatsappContact component... this is a testing comment
+
     return (
         <div className="whatsapp-contact">
             <button onClick={handleClick} className="whatsapp-contact-button">
