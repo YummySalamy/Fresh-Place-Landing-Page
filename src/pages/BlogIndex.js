@@ -9,7 +9,7 @@ import Footer from "components/footers/MiniCenteredFooter";
 import { SectionHeading } from "components/misc/Headings";
 import { PrimaryButton } from "components/misc/Buttons";
 import FirstPost from '../images/first-post.jpeg'
-import Garlic from '../images/lime-exhibition-2.jpeg';
+import FPGAFair from '../images/fpga-fair.jpeg'
 
 const HeadingRow = tw.div`flex`;
 const Heading = tw(SectionHeading)`text-gray-900`;
@@ -52,13 +52,29 @@ export default ({
   headingText = "New Posts",
   posts = [
     {
+      imageSrc: FPGAFair,
+      category: "Fresh-Posts",
+      date: "March 11, 2024",
+      title: "We attended the IFPA Global Floral Produce Show. In case you missed it, here is a recap.",
+      description:
+        "We had a great time at the IFPA Global Floral Produce Show.  We were able to meet with many of our customers and partners.  We are excited to share this with you.",
+      featured: true
+    },
+    {
+      imageSrc: "https://www.producebluebook.com/wp-content/uploads/2022/06/IFPA-Global-Floral-Produce-Show-Logo-Final.png",
+      category: "2024 features",
+      date: "October 17, 2024",
+      title: "Find Us in the IFPA Global Floral Produce Show.",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    },
+    {
       imageSrc: FirstPost,
       category: "Fresh-Posts",
       date: "March 11, 2024",
       title: "Our first March products starts to be deployed.",
       description:
         "After a long wait, we are finally able to deploy our first products of March.  We are excited to share this with you.",
-      featured: true
     },
     getPlaceholderPost(),
   ]
@@ -103,7 +119,7 @@ export default ({
 };
 
 const getPlaceholderPost = () => ({
-  imageSrc: Garlic,
+  imageSrc: "https://cdn.britannica.com/90/80590-050-F94F0332/Limes-peels-pulp-sections.jpg",
   category: "2024 features",
   date: "February 21, 2024",
   title: "Our 2024 features are now available.",
