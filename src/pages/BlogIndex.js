@@ -54,7 +54,7 @@ export default ({
     {
       imageSrc: FPGAFair,
       category: "Fresh-Posts",
-      date: "March 11, 2024",
+      date: "October 18, 2024",
       title: "We attended the IFPA Global Floral Produce Show. In case you missed it, here is a recap.",
       description:
         "We had a great time at the IFPA Global Floral Produce Show.  We were able to meet with many of our customers and partners.  We are excited to share this with you.",
