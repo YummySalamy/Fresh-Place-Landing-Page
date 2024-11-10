@@ -10,6 +10,8 @@ import { SectionHeading } from "components/misc/Headings";
 import { PrimaryButton } from "components/misc/Buttons";
 import FirstPost from '../images/first-post.jpeg'
 import FPGAFair from '../images/fpga-fair.jpeg'
+import NovemberWarehouse from '../images/november2024-products.jpeg'
+import NovemberProducts from '../images/november2024-boxes.jpeg'
 
 const HeadingRow = tw.div`flex`;
 const Heading = tw(SectionHeading)`text-gray-900`;
@@ -59,6 +61,22 @@ export default ({
       description:
         "We had a great time at the IFPA Global Floral Produce Show.  We were able to meet with many of our customers and partners.  We are excited to share this with you.",
       featured: true
+    },
+    {
+      imageSrc: NovemberWarehouse,
+      category: "2024 features",
+      date: "November 8, 2024",
+      title: "We are fully stocked for November 2024.",
+      description:
+        "We are excited to announce that our November 2024 products are now available.  We are excited to share this with you.",
+    },
+    {
+      imageSrc: NovemberProducts,
+      category: "Fresh-Posts",
+      date: "November 7, 2024",
+      title: "Our November 2024 products are now available.",
+      description:
+        "We are excited to announce that our November 2024 products are now available.  We are excited to share this with you.",
     },
     {
       imageSrc: "https://www.producebluebook.com/wp-content/uploads/2022/06/IFPA-Global-Floral-Produce-Show-Logo-Final.png",
